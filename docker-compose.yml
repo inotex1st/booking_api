@@ -20,6 +20,8 @@ services:
       - db
     env_file:
       - .env
+    volumes:
+      - .:/booking_api
 
 volumes:
   pg_data:

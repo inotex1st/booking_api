@@ -29,3 +29,7 @@ ehthumbs.db
 Desktop.ini
 # Логи и временные файлы
 *.log
+
+# --- Локальная база разработки ---
+db.sqlite3
+*.sqlite3
